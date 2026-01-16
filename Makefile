@@ -1,7 +1,7 @@
 TARGET_EXEC := final_program
 CC          := riscv64-linux-gnu-gcc
 BUILD_DIR   := ./build
-SRC_DIRS    := ./src
+SRC_DIRS    := ./
 
 SRCS := $(shell find $(SRC_DIRS) -name '*.c')
 OBJS := $(SRCS:$(SRC_DIRS)/%.c=$(BUILD_DIR)/%.o)
