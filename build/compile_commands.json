@@ -1,0 +1,18 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/riscv64-linux-gnu-gcc",
+      "-march=rv64gcv",
+      "-mabi=lp64d",
+      "-g",
+      "-O2",
+      "-c",
+      "-o",
+      "build/final.o",
+      "src/final.c"
+    ],
+    "directory": "/run/host/home/johnr/Devel/AudioMark_Challenge",
+    "file": "/run/host/home/johnr/Devel/AudioMark_Challenge/src/final.c",
+    "output": "/run/host/home/johnr/Devel/AudioMark_Challenge/build/final.o"
+  }
+]
