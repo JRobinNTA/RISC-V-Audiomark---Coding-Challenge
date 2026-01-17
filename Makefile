@@ -10,6 +10,7 @@ OBJS := $(SRCS:$(SRC_DIRS)/%.c=$(BUILD_DIR)/%.o)
 
 ASMS := $(OBJS:%.o=%.asm)
 
+# UPDATE PATH
 GEM5_DIR := /home/johnr/Devel/gem5
 
 CFLAGS  := -march=rv64gcv -mabi=lp64d -g -O2 -static
