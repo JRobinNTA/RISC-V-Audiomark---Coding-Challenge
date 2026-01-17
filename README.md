@@ -1,4 +1,4 @@
-### RISC-V Audiomark Coding Challenge Solution
+## RISC-V Audiomark Coding Challenge Solution
 
 ##### Project Structure
 
@@ -25,7 +25,9 @@ Cycles RVV: 3108
 - Performance was measured using the gem5 simulator (O3CPU, Out-of-Order execution model) to simulate a high-performance RISC-V core.
 - The gem5 emulator used a default VLEN of 256 bits width and ELEN of 64 bits
 
-#### The Solution Explanation
+---
+
+### The Solution
 
 ```C
 void q15_axpy_rvv(const int16_t *a, const int16_t *b,
@@ -56,6 +58,8 @@ void q15_axpy_rvv(const int16_t *a, const int16_t *b,
     }
 }
 ```
+---
+#### Documentation and reasoning
 
 ```C
     size_t vl;
